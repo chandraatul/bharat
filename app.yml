@@ -4,5 +4,5 @@
   - name: create
     command: touch ansibal
   - copy:
-     src: bharat/ansibal
+     src: ~/bharat/ansibal
      dest: ~/ansibal 
