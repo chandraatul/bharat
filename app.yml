@@ -4,5 +4,5 @@
   - name: create
     command: touch ansibal
   - copy:
-     src: /home/go/.ssh/ 
-     dest: ~/ansibal 
+     src: /home/go/.ssh/insecure_private_key 
+     dest: ~
