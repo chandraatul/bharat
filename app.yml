@@ -1,8 +1,8 @@
 ---
-- name: Test the dummy
-  hosts: app1_group
-  sudo: yes
-#  tasks:
-#  - shell: echo 'test'
-  roles:
-    - app1/nginx
+- hosts: all
+  tasks:
+  - name: create
+    command: touch ansibal
+  - copy:
+     src: /Docker/bharat/bharat
+     dest: /home/ansibal 
