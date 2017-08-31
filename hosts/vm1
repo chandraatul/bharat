@@ -1,3 +1,3 @@
 [app1_group]
-atul.das.com ansible_host=10.10.10.100 ansible_user=vagrant ansible_port=22 
+atul.das.com ansible_host=10.0.2.15 ansible_user=vagrant ansible_port=22 
 ansible_ssh_private_key_file=~/home/go/.ssh/insecure_private_key
