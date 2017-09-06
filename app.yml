@@ -4,9 +4,11 @@
   - name: stoping container
     become: true
     command: docker stop nginx
+    ignore_errors: yes
   - name: removing container
     become: true
     command: docker rm nginx
+    ignore_errors: yes
   - name: pull image
     command: sudo docker run --name nginx -p 80:80 -d nginx:1.7.7
 # - copy:
